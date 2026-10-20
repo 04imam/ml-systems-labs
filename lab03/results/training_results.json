@@ -1,0 +1,17 @@
+{
+  "MLP": {
+    "parameters": 235146,
+    "test_accuracy": 87.81,
+    "training_seconds": 46.292247299978044
+  },
+  "CNN": {
+    "parameters": 20490,
+    "test_accuracy": 89.73,
+    "training_seconds": 79.73126629996113
+  },
+  "Attention": {
+    "parameters": 70794,
+    "test_accuracy": 83.66,
+    "training_seconds": 77.82355239999015
+  }
+}
