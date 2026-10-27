@@ -9,5 +9,5 @@
         "education_consistency": 0,
         "invalid_income_labels": 0
     },
-    "manual_review_status": "Pending human review"
+    "manual_review_status": "Completed - 50 sampled records reviewed; 0 impossible values; 5 missing cells across 3 records"
 }

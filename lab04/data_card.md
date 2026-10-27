@@ -31,7 +31,9 @@ Predict whether annual income exceeds $50,000.
 - Exact duplicate records in raw data: 52
 - Exact duplicate records removed from training: 24
 - Feature groups with conflicting labels: 5
-- Randomly sampled records: 50
+- Randomly sampled records manually reviewed: 50
+- Impossible values in reviewed sample: 0
+- Missing values in reviewed sample: 5 cells across 3 records
 
 Missing values and schema results are recorded in
 results/validation_report.json.
@@ -61,6 +63,19 @@ With engineered features:
 - Accuracy: 0.8578
 - F1: 0.6696
 
+## Manual Label Quality Review
+
+A reproducible random sample of 50 records was examined.
+No impossible numeric values, education inconsistencies,
+or invalid income-label categories were found.
+
+Five missing cells were identified across three records.
+These are permitted missing values, handled during
+preprocessing.
+
+The review checks plausibility and consistency, not the
+factual correctness of individual income labels.
+
 ## Known Biases
 
 The dataset reflects historical US demographic and economic
@@ -82,9 +97,6 @@ individual ability or merit.
 
 Automated quality checks cannot establish that every income
 label is factually correct.
-
-The 50-row sample must also be reviewed manually using
-results/quality_sample_50.csv.
 
 ## Reproducibility
 

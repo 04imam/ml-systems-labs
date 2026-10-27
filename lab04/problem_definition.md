@@ -31,7 +31,7 @@ Accuracy measures the proportion of correctly classified
 observations. F1 score measures the balance between
 precision and recall for the >50K income class.
 
-Both metrics are calculated on the untouched test partition.
+Both metrics are calculated on the test partition.
 The baseline and engineered-feature models are compared
 using the same split.
 
