@@ -1,0 +1,6 @@
+Eager median ms/op: 0.043960
+Traced median ms/op: 0.034972
+Eager/traced ratio: 1.26x
+Contiguous median ms/op: 0.184037
+Non-contiguous median ms/op: 0.223958
+Non-contiguous/contiguous ratio: 1.22x
