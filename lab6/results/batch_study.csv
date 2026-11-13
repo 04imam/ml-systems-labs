@@ -1,0 +1,6 @@
+batch_size,throughput_samples_per_sec,peak_process_memory_mb,validation_accuracy_percent
+32,3126.7,419.87,90.14
+64,3528.85,428.28,90.5
+128,3331.02,440.3,89.7
+256,3406.72,476.36,89.08
+512,3268.36,521.99,88.18

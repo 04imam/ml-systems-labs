@@ -1,0 +1,19 @@
+﻿seed: 42
+model: CNN
+dataset: FashionMNIST
+
+training:
+  epochs: 5
+  batch_size: 128
+  learning_rate: 0.001
+  optimizer: Adam
+  scheduler: StepLR
+  num_workers: 0
+
+checkpoint:
+  directory: checkpoints
+  save_every: 1
+
+mlflow:
+  experiment_name: Lab6_CNN
+  tracking_uri: ./mlruns
