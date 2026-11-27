@@ -1,0 +1,18 @@
+seed: 73947
+batch_size: 128
+num_workers: 0
+allow_cuda: true
+lr: 0.001
+finetune_lr: 0.0003
+teacher_epochs: 8
+finetune_epochs: 3
+student_epochs: 8
+teacher_channels: [32, 64, 128]
+teacher_hidden: 160
+student_channels: [16, 32, 48]
+student_hidden: 32
+sparsities: [0, 0.25, 0.5, 0.75, 0.9, 0.95]
+structured_levels: [0.10, 0.25, 0.50]
+temperature: 4
+alpha: 0.5
+latency_runs: 100
