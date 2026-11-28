@@ -7,3 +7,5 @@ lab03/data/
 lab03/results/*.pt
 __pycache__/
 
+
+/mlruns/
