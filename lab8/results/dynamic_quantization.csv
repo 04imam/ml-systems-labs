@@ -1,0 +1,3 @@
+model,accuracy_pct,size_mb,median_ms,p95_ms,backend,cpu_threads
+baseline_fp32,92.75,4.396005,1.277750008739531,1.8765000102575866,onednn,1
+dynamic_int8,92.77,1.381981,1.4964999863877892,2.255800004058983,onednn,1

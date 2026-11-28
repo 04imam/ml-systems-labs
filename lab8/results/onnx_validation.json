@@ -1,0 +1,21 @@
+{
+  "model": "teacher_fp32_onnx",
+  "opset": 17,
+  "provider": "CPUExecutionProvider",
+  "onnx_version": "1.23.2",
+  "onnxruntime_version": "1.32.0",
+  "cpu_threads": 1,
+  "test_images": 10000,
+  "accuracy_pct": 92.75,
+  "prediction_agreement_pct": 100.0,
+  "max_absolute_error": 9.5367431640625e-06,
+  "mse": 1.1424232999358852e-12,
+  "tolerance": 0.0001,
+  "validation_passed": true,
+  "onnx_size_mb": 4.393614,
+  "onnx_median_ms": 2.513300016289577,
+  "onnx_p95_ms": 2.860920001694467,
+  "pytorch_median_ms": 5.043600016506389,
+  "pytorch_p95_ms": 7.042955022188833,
+  "speedup": 2.0067640089989465
+}

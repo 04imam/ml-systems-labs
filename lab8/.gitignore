@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+models/
+project/data/
+project/mlflow.db
+project/mlruns/
+project/mlartifacts/
+project/checkpoints/latest.pt
+project/checkpoints/*.tmp

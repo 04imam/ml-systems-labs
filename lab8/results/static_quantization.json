@@ -1,0 +1,10 @@
+{
+  "model": "static_int8",
+  "accuracy_pct": 92.72,
+  "size_mb": 1.116061,
+  "median_ms": 0.6533000123454258,
+  "p95_ms": 1.0961999942082912,
+  "backend": "onednn",
+  "cpu_threads": 1,
+  "calibration_images": 500
+}

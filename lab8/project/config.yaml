@@ -1,0 +1,13 @@
+seed: 73947
+image_size: 48
+batch_size: 64
+num_workers: 0
+val_fraction: 0.15
+epochs: 10
+learning_rate: 0.0003
+weight_decay: 0.0001
+cpu_threads: 4
+latency_runs: 100
+num_classes: 43
+architecture: resnet18
+pretrained: true

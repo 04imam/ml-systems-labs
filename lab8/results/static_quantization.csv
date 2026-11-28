@@ -1,0 +1,2 @@
+model,accuracy_pct,size_mb,median_ms,p95_ms,backend,cpu_threads,calibration_images
+static_int8,92.72,1.116061,0.6533000123454258,1.0961999942082912,onednn,1,500

@@ -1,0 +1,20 @@
+[
+  {
+    "model": "baseline_fp32",
+    "accuracy_pct": 92.75,
+    "size_mb": 4.396005,
+    "median_ms": 1.277750008739531,
+    "p95_ms": 1.8765000102575866,
+    "backend": "onednn",
+    "cpu_threads": 1
+  },
+  {
+    "model": "dynamic_int8",
+    "accuracy_pct": 92.77,
+    "size_mb": 1.381981,
+    "median_ms": 1.4964999863877892,
+    "p95_ms": 2.255800004058983,
+    "backend": "onednn",
+    "cpu_threads": 1
+  }
+]

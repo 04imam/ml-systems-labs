@@ -1,0 +1,72 @@
+[
+  {
+    "model": "baseline_fp32",
+    "accuracy_pct": 92.75,
+    "size_mb": 4.396005,
+    "median_ms": 1.2683000095421448,
+    "p95_ms": 1.850900005956646,
+    "backend": "onednn",
+    "cpu_threads": 1,
+    "calibration_images": 0
+  },
+  {
+    "model": "pruned_fp32",
+    "accuracy_pct": 92.8,
+    "size_mb": 2.111429,
+    "median_ms": 0.5423499969765544,
+    "p95_ms": 0.8618749852757901,
+    "backend": "onednn",
+    "cpu_threads": 1,
+    "calibration_images": 0
+  },
+  {
+    "model": "distilled_fp32",
+    "accuracy_pct": 91.64,
+    "size_mb": 0.381365,
+    "median_ms": 0.4463499935809523,
+    "p95_ms": 0.5726799776311963,
+    "backend": "onednn",
+    "cpu_threads": 1,
+    "calibration_images": 0
+  },
+  {
+    "model": "dynamic_int8",
+    "accuracy_pct": 92.77,
+    "size_mb": 1.381981,
+    "median_ms": 1.4119999832473695,
+    "p95_ms": 2.014054989558644,
+    "backend": "onednn",
+    "cpu_threads": 1,
+    "calibration_images": 0
+  },
+  {
+    "model": "static_int8",
+    "accuracy_pct": 92.72,
+    "size_mb": 1.116061,
+    "median_ms": 0.6614000012632459,
+    "p95_ms": 0.829325008089654,
+    "backend": "onednn",
+    "cpu_threads": 1,
+    "calibration_images": 500
+  },
+  {
+    "model": "pruned_static_int8",
+    "accuracy_pct": 92.75,
+    "size_mb": 0.543093,
+    "median_ms": 0.487750003230758,
+    "p95_ms": 0.951559997338336,
+    "backend": "onednn",
+    "cpu_threads": 1,
+    "calibration_images": 500
+  },
+  {
+    "model": "distilled_static_int8",
+    "accuracy_pct": 91.61,
+    "size_mb": 0.107949,
+    "median_ms": 0.4545999981928617,
+    "p95_ms": 0.5601850105449557,
+    "backend": "onednn",
+    "cpu_threads": 1,
+    "calibration_images": 500
+  }
+]
